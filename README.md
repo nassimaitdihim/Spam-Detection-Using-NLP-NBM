@@ -34,6 +34,8 @@ git clone https://github.com/nassimaitdihim/Spam-Detection-Using-NLP-NBM.git
 - The spam detection model predicts whether the message is spam or not.
 - The prediction result is displayed on the screen.
 
+![Spam Detection](Application.png)
+
 ## Contributing
 
 Contributions are welcome! For suggestions, enhancements, or bug reports, please open an issue on this repository.
