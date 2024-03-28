@@ -4,7 +4,7 @@ This project involves creating an application for spam detection using NLP & a N
 
 ## Project Contents
 
-1. `Spam Detection Application.py`: The main file of the Streamlit application.
+1. `app.py`: The main file of the Streamlit application.
 2. `spam_classifier_model.joblib`: The trained model saved in joblib format.
 3. `requirements.txt`: Python dependencies required to run the application.
 4. `README.md` (this file): Instructions and project description.
@@ -25,7 +25,7 @@ git clone https://github.com/nassimaitdihim/Spam-Detection-Using-NLP-NBM.git
 ## Usage
 
 1. Run the application by executing the following command in your terminal:
-`streamlit run "Spam Detection Application.py"`
+`streamlit run "app.py"`
 2. Open your web browser and access the URL provided in the console.
 
 ## Features
