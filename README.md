@@ -18,7 +18,7 @@ Make sure you have Python installed on your system. You can download Python from
 1. Clone this repository to your local machine:
 git clone https://github.com/nassimaitdihim/Spam-Detection-Using-NLP-NBM.git
 2. Navigate to the project directory:
-`cd Spam Detection Using NLP & MNB`
+`cd "Spam-Detection-Using-NLP-NBM-master"`
 3. Install the required dependencies:
 `pip install -r requirements.txt`
 
