@@ -1,47 +1,47 @@
-# Détection de Spams avec Naive Bayes Multinomial
+# Spam Detection Using Natural language processing (NLP) & Naive Bayes Multinomial
 
-Ce projet consiste en la création d'une application pour la détection de spams à l'aide d'un modèle Naive Bayes Multinomial. L'application utilise Streamlit pour créer une interface utilisateur conviviale.
+This project involves creating an application for spam detection using NLP & a Naive Bayes Multinomial model. The application utilizes Streamlit to create a user-friendly interface.
 
-## Contenu du Projet
+## Project Contents
 
-1. `Spam Detection Application.py`: Le fichier principal de l'application Streamlit.
-2. `spam_classifier_model.joblib`: Le modèle entraîné enregistré au format joblib.
-3. `requirements.txt`: Les dépendances Python nécessaires pour exécuter l'application.
-4. `README.md` (ce fichier): Instructions et description du projet.
+1. `Spam Detection Application.py`: The main file of the Streamlit application.
+2. `spam_classifier_model.joblib`: The trained model saved in joblib format.
+3. `requirements.txt`: Python dependencies required to run the application.
+4. `README.md` (this file): Instructions and project description.
 
-## Prérequis
+## Prerequisites
 
-Assurez-vous d'avoir Python installé sur votre système. Vous pouvez télécharger Python sur [le site officiel de Python](https://www.python.org/).
+Make sure you have Python installed on your system. You can download Python from [the official Python website](https://www.python.org/).
 
 ## Installation
 
-1. Clonez ce dépôt sur votre machine locale :
-git clone https://github.com/nassimaitdihim/Spam-Detection-Using-NLP.git
-2. Naviguez vers le répertoire du projet :
-cd votre-projet
-3. Installez les dépendances requises :
-pip install -r requirements.txt
+1. Clone this repository to your local machine:
+git clone https://github.com/nassimaitdihim/Spam-Detection-Using-NLP-MNB.git
+2. Navigate to the project directory:
+`cd Spam Detection Using NLP & MNB`
+3. Install the required dependencies:
+`pip install -r requirements.txt`
 
-## Utilisation
+## Usage
 
-1. Exécutez l'application en exécutant la commande suivante dans votre terminal :
-streamlit run app.py
-2. Ouvrez votre navigateur web et accédez à l'URL indiquée dans la console.
+1. Run the application by executing the following command in your terminal:
+`streamlit run app.py`
+2. Open your web browser and access the URL provided in the console.
 
-## Fonctionnalités
+## Features
 
-- L'utilisateur peut saisir un message dans l'interface.
-- Le modèle de détection de spams prédit si le message est un spam ou non.
-- Le résultat de la prédiction est affiché à l'écran.
+- Users can enter a message in the interface.
+- The spam detection model predicts whether the message is spam or not.
+- The prediction result is displayed on the screen.
 
-## Contribuer
+## Contributing
 
-Les contributions sont les bienvenues ! Pour des suggestions, des améliorations ou des rapports de bugs, veuillez ouvrir une issue sur ce dépôt.
+Contributions are welcome! For suggestions, enhancements, or bug reports, please open an issue on this repository.
 
-## Auteur
+## Author
 
 Nassim Aït Dihim & Said Tallouk & Anass Nabil & Mohammed Laalahmi
 
-## Licence
+## License
 
-Ce projet est sous licence [NDHM](LICENSE).
+This project is licensed under the [NDHM](LICENSE) license.
