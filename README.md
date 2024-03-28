@@ -16,7 +16,7 @@ Make sure you have Python installed on your system. You can download Python from
 ## Installation
 
 1. Clone this repository to your local machine:
-git clone https://github.com/nassimaitdihim/Spam-Detection-Using-NLP-MNB.git
+git clone https://github.com/nassimaitdihim/Spam-Detection-Using-NLP-NBM.git
 2. Navigate to the project directory:
 `cd Spam Detection Using NLP & MNB`
 3. Install the required dependencies:
@@ -25,7 +25,7 @@ git clone https://github.com/nassimaitdihim/Spam-Detection-Using-NLP-MNB.git
 ## Usage
 
 1. Run the application by executing the following command in your terminal:
-`streamlit run app.py`
+`streamlit run "Spam Detection Application.py"`
 2. Open your web browser and access the URL provided in the console.
 
 ## Features
