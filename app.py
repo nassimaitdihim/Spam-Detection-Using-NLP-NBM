@@ -42,25 +42,26 @@ sidebar_content = """
 image = 'estfbs logo.png'  # Replace with the path to your image
 
 # Display the image in the sidebar
-st.sidebar.image(image, width=150)
+st.sidebar.image(image, width=100)
 
 # Display sidebar content
 st.sidebar.markdown(sidebar_content)
 
 # Header
-st.title("📧 Spam Detection App 💥")
+st.title("✉️ Spam Detection App 💥")
 st.info("Enter an SMS below and check if it's spam.")
 
 # SMS input
 sms = st.text_area("Enter an SMS")
 
-if sms:
-    prediction = predict_message(sms)
+if st.button("Submit"):
+    if sms:
+        prediction = predict_message(sms)
 
-    # Spam detection results
-    st.write("## Spam Detection Results")
+        # Spam detection results
+        st.write("## Spam Detection Results")
 
-    if prediction == 1:
-        st.error("This SMS might be spam.")
-    else:
-        st.success("This SMS is not spam.")
+        if prediction == 1:
+            st.error("This SMS might be spam.")
+        else:
+            st.success("This SMS is not spam.")
