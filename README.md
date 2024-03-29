@@ -36,9 +36,11 @@ git clone https://github.com/nassimaitdihim/Spam-Detection-Using-NLP-NBM.git
 
 ![Spam Detection](Application.png)
 
+
 ## Video Demonstration
 
 ![Spam Detection](Demonstration.gif)
+
 
 ## Contributing
 
