@@ -36,12 +36,6 @@ git clone https://github.com/nassimaitdihim/Spam-Detection-Using-NLP-NBM.git
 
 ![Spam Detection](Application.png)
 
-
-## Video Demonstration
-
-![Spam Detection](Demonstration.gif)
-
-
 ## Contributing
 
 Contributions are welcome! For suggestions, enhancements, or bug reports, please open an issue on this repository.
@@ -53,3 +47,7 @@ Nassim Aït Dihim & Said Tallouk & Anass Nabil & Mohammed Laalahmi
 ## License
 
 This project is licensed under the [NDHM](LICENSE) license.
+
+## Video Demonstration
+
+![Spam Detection](Demonstration.gif)
