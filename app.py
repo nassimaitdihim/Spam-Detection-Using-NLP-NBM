@@ -16,9 +16,40 @@ st.set_page_config(
     page_icon=":email:"
 )
 
+import streamlit as st
+
+# Sidebar content
+sidebar_content = """
+# Ecole Supérieure de Technologie Fkih Ben Salah
+
+---
+
+**Équipe de réalisation :**
+
+- 👨‍🎓 &nbsp;&nbsp;&nbsp;&nbsp; Nassim Aït Dihim
+- 👨‍🎓 &nbsp;&nbsp;&nbsp;&nbsp; Said Tallouk
+- 👨‍🎓 &nbsp;&nbsp;&nbsp;&nbsp; Anass Nabil
+- 👨‍🎓 &nbsp;&nbsp;&nbsp;&nbsp; Mohammed Laalahmi
+
+---
+
+**Demandé Par :**
+
+- 👨‍🏫 &nbsp;&nbsp;&nbsp;&nbsp; Pr. Hassan Fouazi
+"""
+
+# Load the image
+image = 'estfbs logo.png'  # Replace with the path to your image
+
+# Display the image in the sidebar
+st.sidebar.image(image, width=150)
+
+# Display sidebar content
+st.sidebar.markdown(sidebar_content)
+
 # Header
-st.title("Spam Detection App")
-st.write("Enter an SMS below and check if it's spam.")
+st.title("📧 Spam Detection App 💥")
+st.info("Enter an SMS below and check if it's spam.")
 
 # SMS input
 sms = st.text_area("Enter an SMS")
